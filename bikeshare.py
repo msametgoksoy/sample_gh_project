@@ -5,7 +5,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#get_filter function is using for read data from clients. Clients can choose city,month and day with this function
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
