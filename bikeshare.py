@@ -186,7 +186,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#to bring raw data 5 row by 5row raw_data function defined
 def raw_data(df):
     count=0
     while True:
