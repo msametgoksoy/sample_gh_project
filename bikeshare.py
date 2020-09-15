@@ -48,7 +48,7 @@ def get_filters():
     print('-'*40)
     return city, month, day
 
-
+#load_data function get data from csv files to create panda data frame, based on client's choices on get filters function
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
